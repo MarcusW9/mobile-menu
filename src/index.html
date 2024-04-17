@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="header">
+  <div class="header sidebar">
     <div class="menu">
       <div class="dropdown" data-dropdown>
         <button class="dropdown-button" data-dropdown-button>Information</button>
@@ -91,6 +91,24 @@
             <input id="email-input" type="email" name="email"></input>
             <label for="password-input">Password</label>
             <input id="password-input" type="password" name="password"></input>
+          </div>
+        </form>
+      </div>
+      <div class="dropdown" data-dropdown>
+        <button class="dropdown-button" data-dropdown-button>About</button>
+        <div class="dropdown-menu information-list" data-dropdown-menu>
+            <a href="#" class="link">Mission</a>
+            <a href="#" class="link">People</a>
+            <a href="#" class="link">Impact</a>
+        </div>
+      </div>
+      <div class="dropdown" data-dropdown>
+        <button class="dropdown-button" data-dropdown-button>Contact</button>
+        <form class="dropdown-menu dropdown-form" data-dropdown-menu>
+          <div class="contact-form">
+            <div class="dropdown-heading">Contact Email</div>
+            <label for="contact-email-input">Email</label>
+            <input id="contact-email-input" type="email" name="contact-email"></input>
           </div>
         </form>
       </div>
